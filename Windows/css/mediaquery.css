@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px) {
+	.main-nav {
+		display: inline-block;
+	}
+	.hero-text-box {
+		padding: 0 2%;
+		width: 100%;
+	}
+	.row {
+		padding: 0 2%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 17px;
+	}
+	section {
+		padding: 50px 0;
+	}
+	.long-copy {
+		width: 80%;
+		margin: 0 10%;
+	}
+	.phone-pic {
+		width: 50%;
+		height: auto;
+	}
+	.step-box {
+		margin-top: 20px;
+	}
+	.working-content:last-of-type {
+		margin-bottom: 80px;
+	}
+	.icon-small {
+		margin-right: 6px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.col {
+		width: 100%;
+	}
+	.solid-button,
+	input[type='submit'],
+	.ghost-button {
+		padding: 10px;
+	}
+	.mobile-nav-icon {
+		display: inline;
+	}
+	.main-nav {
+		float: left;
+		margin-top: 25px;
+		list-style: none;
+		display: none;
+	}
+	.main-nav li {
+		display: block;
+		margin-left: 50px;
+		padding-bottom: 10%;
+	}
+	.sticky .main-nav li a {
+		font-size: 100%;
+		padding-bottom: 10px;
+	}
+	.sticky .main-nav li a:hover {
+		border: none;
+	}
+	.sticky .mobile-nav-icon {
+		color: #795548;
+		margin-top: 10px;
+	}
+	.sticky .logo {
+		display: none;
+	}
+	.sticky .logo-black {
+		display: block;
+	}
+	.sticky .main-nav {
+		margin-top: 20px;
+		list-style: none;
+		float: left;
+	}
+	.long-copy {
+		width: 100%;
+		margin: 0 0;
+	}
+	.working-content div {
+		height: 45px;
+		width: 45px;
+		font-size: 120%;
+		margin-right: 7px;
+		padding: 9px;
+	}
+	.step-box:first-child {
+		text-align: center;
+		padding-right: 3%;
+	}
+	.phone-pic {
+		width: 30%;
+		height: auto;
+	}
+	.contact-form {
+		width: 100%;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	input[type='submit'] {
+		margin-left: 40%;
+	}
+	.box img {
+		width: 85%;
+		height: auto;
+		margin-bottom: 15px;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+	}
+	.city-feature {
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.box h3 {
+		text-align: center;
+	}
+	.working-content:last-of-type {
+		margin-bottom: 60px;
+	}
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 170%;
+	}
+	h2 {
+		font-size: 150%;
+	}
+	section {
+		padding: 50px 0;
+	}
+	.logo {
+		height: 100px;
+		width: auto;
+		margin-top: 10px;
+		float: left;
+	}
+}
